@@ -27,7 +27,7 @@ app.get('/dynamicimage' ,(req,res)=> {
   if(imgName)
   {
     res.sendFile(finalImage)
-    console.log("not found")
+    
     //res.send("Not Found");
 
   } else if(imgName== null){
